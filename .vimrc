@@ -1,5 +1,8 @@
 execute pathogen#infect()
 
+autocmd VimEnter * NERDTree
+autocmd VimEnter * Tagbar 
+
 " Leader
 let mapleader = " "
 
